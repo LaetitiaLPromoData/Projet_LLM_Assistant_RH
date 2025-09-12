@@ -1,0 +1,17 @@
+# Minimal deps for these two scripts (LangChain 0.2+ split packages)
+langchain>=0.2.12
+langchain-community>=0.2.10
+langchain-chroma>=0.1.2
+langchain-huggingface>=0.1.0
+langchain-google-genai>=2.0.0
+langchain-openai>=0.1.22
+chromadb>=0.5.5
+sentence-transformers>=2.7.0
+pypdf>=4.2.0
+
+langchain-text-splitters>=0.2.2
+
+# Additional dependencies
+streamlit>=1.25.0
+openai>=0.27.8
+google-cloud>=0.34.0
