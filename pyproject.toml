@@ -4,4 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "deepeval>=3.4.8",
+    "docling>=2.51.0",
+    "langchain-chroma>=0.2.5",
+    "langchain-community>=0.3.29",
+    "langchain-google-genai>=2.1.10",
+    "pypdf>=6.0.0",
+    "streamlit>=1.49.1",
+    "unstructured[pdf]>=0.18.14",
+]
